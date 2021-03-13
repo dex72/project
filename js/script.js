@@ -104,19 +104,42 @@
 
 // (num === 50) ? console.log('OK!') : console.log('Error');
 
-const num = 1000;
+// const num = 1000;
 
-switch (num) {
-    case 49:
-        console.log('Неверно');
-        break;
-    case 100:
-        console.log('Неверно');
-        break;
-    case 50:
-        console.log('В точку');
-        break;
-    default:
-        console.log('Не в этот раз');
-        break;
+// switch (num) {
+//     case 49:
+//         console.log('Неверно');
+//         break;
+//     case 100:
+//         console.log('Неверно');
+//         break;
+//     case 50:
+//         console.log('В точку');
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;
+// }
+
+let num = 50;
+
+// // while (num < 55) {
+// //     console.log(num);
+// //     num++;
+// // }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num <= 55);
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        // break;
+        continue;
+    }    
+    
+    console.log(i);
+    
 }
