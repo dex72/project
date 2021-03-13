@@ -47,24 +47,41 @@
 // console.log('arr' + " - object");
 // console.log(4 + +"5");
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-// ++incr;
-// --decr;
+// // ++incr;
+// // --decr;
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
 
-console.log(5%2);
+// console.log(5%2);
 
-console.log(2*4 === 8);
+// console.log(2*4 === 8);
 
-const isChecker = true,
-      isClose = false;
+// const isChecker = true,
+//       isClose = false;
 
-console.log(isChecker || isClose);
+// console.log(isChecker || isClose);
 
+const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 
+const personalMovieDb = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    gentres: [],
+    privat: false
 
+};
 
+const a = prompt('Один из просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его?', '');
+
+      personalMovieDb.movies.a = b;
+      personalMovieDb.movies.c = d;
+
+      console.log(personalMovieDb);
